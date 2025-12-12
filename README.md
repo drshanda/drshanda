@@ -86,12 +86,12 @@ Includes:
 
 # **Tech Stack**
 
-**Python**, PyTorch, TensorFlow, scikit-learn
-**R**, tidyverse, Shiny
-**Bioinformatics:** RNA-seq, scRNA-seq, metagenomics, NGS
-**MLOps:** AWS SageMaker, MLflow, DVC, Docker, ONNX
-**Explainability:** SHAP, Grad-CAM, Integrated Gradients
-**Pipelines:** Nextflow, nf-core
+**Python**, PyTorch, TensorFlow, scikit-learn  
+**R**, tidyverse, Shiny  
+**Bioinformatics:** RNA-seq, scRNA-seq, metagenomics, NGS  
+**MLOps:** AWS SageMaker, MLflow, DVC, Docker, ONNX  
+**Explainability:** SHAP, Grad-CAM, Integrated Gradients  
+**Pipelines:** Nextflow, nf-core  
 
 ---
 
@@ -114,7 +114,7 @@ Includes:
 
 # **Let’s Connect**
 
-📧 **[williams.lashandar@gmail.com](mailto:williams.lashandar@gmail.com)**
-🌐 **https://www.linkedin.com/in/lashanda-williams-ph-d/**
-🌐 **github.com/drshanda**
+📧 **[williams.lashandar@gmail.com](mailto:williams.lashandar@gmail.com)**  
+🌐 **https://www.linkedin.com/in/lashanda-williams-ph-d/**  
+🌐 **github.com/drshanda**  
 
