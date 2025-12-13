@@ -40,15 +40,20 @@ This classifier provides:
 
 ## ** AtlasCell — Single-Cell Classifier for Automated Annotation**
 
-A deep learning model for scRNA-seq cell type prediction with full preprocessing (QC, HVGs, PCA/UMAP).
-**SHAP** will reveal gene markers aligned with canonical cell types.
-Built with **MLflow** and **DVC** for fully reproducible workflows.
+A deep learning model for scRNA-seq cell type prediction with full preprocessing (QC, HVGs, PCA/UMAP). **SHAP** will reveal gene markers aligned with canonical cell types. Built with **MLflow** and **DVC** for fully reproducible workflows.
+
+---
+
+## ** PhyloLLM — Evolution-Aware Transformer for Zoonotic Coronavirus Surveillance** 
+
+An interpretable, evolution-aware transformer modeling how betacoronavirus spike proteins evolve in relation to host switching and zoonotic emergence, integrating phylogenetic conditioning, lineage-aware embeddings, and Monte Carlo dropout to quantify epistemic uncertainty and distinguish confident evolutionary signals from ambiguous transitions driven by phylogenetic novelty.
 
 ---
 
 ## ** Pathogenicity Risk Score Predictor (Full MLOps Pipeline)**
 
-An **AWS SageMaker** end-to-end pipeline processing wastewater metagenomic features to predict continuous pathogenicity risk.
+An **AWS SageMaker** end-to-end pipeline processing wastewater metagenomic features to predict continuous pathogenicity risk.  
+
 Features:
 
 * Dockerized feature engineering container
@@ -56,7 +61,6 @@ Features:
 * ONNX model export
 * MLflow tracking and model lineage
 * Drift monitoring and schema validation
-
 
 ---
 
@@ -68,6 +72,22 @@ Features:
 **MLOps:** AWS SageMaker, MLflow, DVC, Docker, ONNX  
 **Explainability:** SHAP, Grad-CAM, Integrated Gradients  
 **Pipelines:** Nextflow, nf-core  
+
+---
+
+# **Education**
+
+MS, Data Science
+Eastern University — Expected August 2026
+
+PhD, Ecology & Evolution
+Rutgers University
+
+MA, Anthropology
+New York University
+
+BS, Anthropology & Sociology
+Virginia Commonwealth University
 
 ---
 
@@ -90,7 +110,7 @@ Features:
 
 # **Let’s Connect**
 
-📧 **[williams.lashandar@gmail.com](mailto:williams.lashandar@gmail.com)**  
-🌐 **https://www.linkedin.com/in/lashanda-williams-ph-d/**  
-🌐 **github.com/drshanda**  
+📧 **Email: [williams.lashandar@gmail.com](mailto:williams.lashandar@gmail.com)**  
+🌐 **LinkedIn: https://www.linkedin.com/in/lashanda-williams-ph-d/**  
+🌐 **GitHub: github.com/drshanda**  
 
