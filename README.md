@@ -34,9 +34,7 @@ This classifier provides:
 
 ---
 
-# **What’s Coming Next: Projects 2–5 (High-Level Roadmap)**
-
-Spanning single-cell analysis, clinical imaging, MLOps, and transformer-based modeling, these projects together demonstrate a comprehensive, end-to-end mastery of AI/ML Bioinformatics.
+# **What’s Coming Next (High-Level Roadmap)**
 
 ---
 
@@ -45,18 +43,6 @@ Spanning single-cell analysis, clinical imaging, MLOps, and transformer-based mo
 A deep learning model for scRNA-seq cell type prediction with full preprocessing (QC, HVGs, PCA/UMAP).
 **SHAP** will reveal gene markers aligned with canonical cell types.
 Built with **MLflow** and **DVC** for fully reproducible workflows.
-
----
-
-## ** BioLLM — Transformer for Predicting Cancer Regulatory Programs (TCGA-BRCA)**
-
-An interpretable biological language model predicting hallmark oncogenic programs (proliferation, EMT, estrogen response, etc.).
-Includes:
-
-* **Integrated Gradients**
-* **Attention analysis**
-* **SHAP gene attributions**
-* A compact transformer encoder optimized for biological structure
 
 ---
 
@@ -71,16 +57,6 @@ Features:
 * MLflow tracking and model lineage
 * Drift monitoring and schema validation
 
----
-
-## ** Multi-Class Chest X-ray Diagnostic Model**
-
-A medical imaging classifier (Normal, Bacterial/Viral Pneumonia, COVID-19, TB, Emphysema) built using **EfficientNet**.
-Includes:
-
-* Full DICOM → tensor preprocessing
-* **Grad-CAM** & **Integrated Gradients** for clinical interpretability
-* Class-balanced training and augmentation workflow
 
 ---
 
