@@ -38,9 +38,9 @@ This classifier provides:
 
 ---
 
-## ** AtlasCell — Single-Cell Classifier for Automated Annotation**
+## ** ViraScope - Interpretable Machine Learning for Viral Host–Pathogen Interactions at Single-Cell Resolution **
 
-A deep learning model for scRNA-seq cell type prediction with full preprocessing (QC, HVGs, PCA/UMAP). **SHAP** will reveal gene markers aligned with canonical cell types. Built with **MLflow** and **DVC** for fully reproducible workflows.
+Using virus-inclusive scRNA-seq data, this work models how heterogeneous immune cell states and viral RNA burden relate to infection outcomes and disease severity, with an emphasis on biological interpretability, uncertainty, and interaction-level insight.
 
 ---
 
