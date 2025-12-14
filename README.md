@@ -37,13 +37,6 @@ This classifier provides:
 # **What’s Coming Next (High-Level Roadmap)**
 
 ---
-
-## ** ViraScope - Interpretable Machine Learning for Viral Host–Pathogen Interactions at Single-Cell Resolution **
-
-Using virus-inclusive scRNA-seq data, this work models how heterogeneous immune cell states and viral RNA burden relate to infection outcomes and disease severity, with an emphasis on biological interpretability, uncertainty, and interaction-level insight.
-
----
-
 ## ** PhyloLLM — Evolution-Aware Transformer for Zoonotic Coronavirus Surveillance** 
 
 An interpretable, evolution-aware transformer modeling how betacoronavirus spike proteins evolve in relation to host switching and zoonotic emergence, integrating phylogenetic conditioning, lineage-aware embeddings, and Monte Carlo dropout to quantify epistemic uncertainty and distinguish confident evolutionary signals from ambiguous transitions driven by phylogenetic novelty.
