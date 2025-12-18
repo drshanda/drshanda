@@ -2,9 +2,14 @@
 
 ### **AI/ML Bioinformatics Scientist | Deep Learning | Interpretable ML | MLOps**
 
-I’m a scientist–engineer with 10+ years of multi-omic analytics experience, specializing in **interpretable deep learning**, **biological transformers**, and **production-grade MLOps**. My work bridges computational biology and AI to produce **transparent, clinically relevant**, and **deployable** machine learning systems.
+I am an AI/ML bioinformatics scientist with a background in computational biology, microbial ecology, and infectious disease genomics, focused on building interpretable, biologically grounded machine learning models for high-stakes biological data.
 
-Across academia, industry, and applied AI instruction, I’ve built pipelines and models that turn complex biological data—metagenomics, RNA-seq, scRNA-seq, and medical imaging—into tools that drive mechanistic insight and translational decision-making.
+My work sits at the intersection of:
+- Machine learning rigor (leakage-aware validation, uncertainty, reproducibility)
+- Biological realism (host–pathogen systems, microbiomes, immune dynamics)
+- Interpretability by design (program-level features, pathway abstraction, SHAP)
+
+Across academia, industry, and applied AI instruction, I’ve built pipelines and models that turn complex biological data— genomics, metagenomics, metatranscriptomics, scRNA-seq —into tools that drive mechanistic insight and translational decision-making.
 
 ---
 
@@ -36,51 +41,59 @@ This classifier provides:
 
 # **What’s Coming Next (High-Level Roadmap)**
 
----
-## ** PhyloLLM — Evolution-Aware Transformer for Zoonotic Coronavirus Surveillance** 
+## Interpretable Patient-Level Modeling of Malaria Progression from scRNA-seq
 
-An interpretable, evolution-aware transformer modeling how betacoronavirus spike proteins evolve in relation to host switching and zoonotic emergence, integrating phylogenetic conditioning, lineage-aware embeddings, and Monte Carlo dropout to quantify epistemic uncertainty and distinguish confident evolutionary signals from ambiguous transitions driven by phylogenetic novelty.
+An interpretability-first framework for modeling ordered disease progression (Control → Day 0 → Day 7 → Day 28) from PBMC scRNA-seq data using immune program aggregation and strict leave-one-patient-out (LOPO) validation.
 
----
+Focus
 
-## ** Pathogenicity Risk Score Predictor (Full MLOps Pipeline)**
-
-An **AWS SageMaker** end-to-end pipeline processing wastewater metagenomic features to predict continuous pathogenicity risk.  
-
-Features:
-
-* Dockerized feature engineering container
-* Modular SageMaker pipeline (processing → training → evaluation → registry)
-* ONNX model export
-* MLflow tracking and model lineage
-* Drift monitoring and schema validation
+- Program-level (not gene-level) features
+- Ordinal regression & ordinal random forests
+- SHAP-based error analysis to diagnose immune ambiguity
+- Biological validation via pseudobulk DE and pathway enrichment
 
 ---
 
+## Phylogeny-Aware Transformer for Betacoronavirus Spike Evolution
+
+A transformer model grounded in evolutionary theory, designed to learn how spike protein sequences evolve in relation to host switching and zoonotic emergence, while explicitly accounting for shared ancestry.
+
+Focus
+
+- Amino-acid–level sequence modeling
+- Phylogenetic conditioning (clade embeddings, tree distance)
+- Lineage-aware cross-validation
+- Monte Carlo dropout for epistemic uncertainty
+- Attention and mutation-level attribution
+
+---
+## Pathway-Level Modeling of Antibiotic-Induced Functional Perturbation in the Gut Metatranscriptome
+
+An interpretable ML framework for modeling antibiotic-specific functional responses in the gut microbiome using KEGG and GO pathway activity derived from metatranscriptomic data.
+
+Focus
+- Functional abstraction over taxonomy
+- Program-level ML inputs
+- SHAP-based attribution of disrupted microbial processes
+
+  
+---
 # **Tech Stack**
 
-**Python**, PyTorch, TensorFlow, scikit-learn  
-**R**, tidyverse, Shiny  
-**Bioinformatics:** RNA-seq, scRNA-seq, metagenomics, NGS  
-**MLOps:** AWS SageMaker, MLflow, DVC, Docker, ONNX  
-**Explainability:** SHAP, Grad-CAM, Integrated Gradients  
-**Pipelines:** Nextflow, nf-core  
+- **Python**, PyTorch, TensorFlow, scikit-learn  
+- **R**, tidyverse, Shiny  
+- **Bioinformatics:** genomics, scRNA-seq, metagenomics, metatranscriptomics, NGS  
+- **MLOps:** MLflow, DVC, Docker
+- **Explainability:** SHAP
 
 ---
 
 # **Education**
 
-MS, Data Science
-Eastern University — Expected August 2026
-
-PhD, Ecology & Evolution
-Rutgers University
-
-MA, Anthropology
-New York University
-
-BS, Anthropology & Sociology
-Virginia Commonwealth University
+- MS, Data Science, Eastern University — Expected August 2026
+- PhD, Ecology & Evolution, Rutgers University
+- MA, Anthropology, New York University
+- BS, Anthropology & Sociology, Virginia Commonwealth University
 
 ---
 
