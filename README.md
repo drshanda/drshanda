@@ -65,6 +65,18 @@ Focus
 
   
 ---
+
+## Interpretable Modeling of Host Translational and Cellular Stress Responses to Influenza Infection 
+
+An interpretability-first framework for modeling host cellular stress and translational control during influenza infection using KEGG pathway–level features derived from integrated human bulk transcriptomic data.
+
+Focus
+- Host cellular machinery rather than immune signaling or clinical severity
+- KEGG pathway–level abstraction of translation, ER stress, proteostasis, and metabolism
+- Autoencoder-based learning of continuous host stress axes
+- Mechanistic interpretation of latent dimensions via pathway contributions and decoder perturbation
+
+---
 # **Tech Stack**
 
 - **Python**, PyTorch, TensorFlow, scikit-learn  
