@@ -54,19 +54,6 @@ Focus
 
 ---
 
-## Phylogeny-Aware Transformer for Betacoronavirus Spike Evolution
-
-A transformer model grounded in evolutionary theory, designed to learn how spike protein sequences evolve in relation to host switching and zoonotic emergence, while explicitly accounting for shared ancestry.
-
-Focus
-
-- Amino-acid–level sequence modeling
-- Phylogenetic conditioning (clade embeddings, tree distance)
-- Lineage-aware cross-validation
-- Monte Carlo dropout for epistemic uncertainty
-- Attention and mutation-level attribution
-
----
 ## Pathway-Level Modeling of Antibiotic-Induced Functional Perturbation in the Gut Metatranscriptome
 
 An interpretable ML framework for modeling antibiotic-specific functional responses in the gut microbiome using KEGG and GO pathway activity derived from metatranscriptomic data.
