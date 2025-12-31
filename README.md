@@ -1,13 +1,13 @@
 #  **Hi, I'm LaShanda R. Williams, PhD**
 
-I am an AI/ML bioinformatics scientist with a background in computational biology, microbial ecology, and infectious disease genomics, focused on building interpretable, biologically grounded machine learning models for high-stakes biological data.
+I am an AI/ML bioinformatics scientist focused on interpretable, biology-aware representation learning for multi-omics data, building models that translate high-dimensional molecular profiles into mechanistically legible and reproducible inference.
 
 My work sits at the intersection of:
-- Machine learning rigor (leakage-aware validation, uncertainty, reproducibility)
-- Biological realism (host–pathogen systems, microbiomes, immune dynamics)
-- Interpretability by design (program-level features, pathway abstraction, SHAP)
+- Machine learning rigor — leakage-aware validation, uncertainty-aware modeling, reproducible workflows
+- Biological realism — host–pathogen systems, immune dynamics, microbiomes, and functional state modeling
+- Interpretability by design — pathway- and program-level representations, SHAP-based attribution, and mechanism-consistent explanations
 
-Across academia, industry, and applied AI instruction, I’ve built pipelines and models that turn complex biological data into tools that drive mechanistic insight and translational decision-making.
+Across academia, industry, and applied AI instruction, I’ve built ML frameworks and end-to-end pipelines that translate complex multi-omic data into mechanistically interpretable representations that support reliable inference and decision-making in translational research settings.
 
 ---
 
@@ -104,11 +104,12 @@ Focus
 
 # **Tech Stack**
 
-- **Python**, PyTorch, TensorFlow, scikit-learn  
-- **R**, Bioconductor, tidyverse, Shiny  
-- **Bioinformatics:** bulk RNAseq, microarray, scRNA-seq, metagenomics, metatranscriptomics, NGS  
-- **MLOps:** MLflow, DVC, Docker
-- **Explainability:** SHAP
+- Programming & ML: Python (pandas, numpy, scikit-learn, PyTorch)
+- Statistical Computing: R (Bioconductor, tidyverse, Shiny)
+- Bioinformatics: bulk RNA-seq & microarray, scRNA-seq, metagenomics, metatranscriptomics
+- Machine Learning: interpretable ML (logistic & ordinal regression, random forests, autoencoders), representation learning
+- MLOps & Reproducibility: MLflow, DVC, Docker, AWS S3 & EC2
+- Explainability: SHAP
 
 ---
 
