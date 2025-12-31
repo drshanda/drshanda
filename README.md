@@ -7,7 +7,7 @@ My work sits at the intersection of:
 - Biological realism (host–pathogen systems, microbiomes, immune dynamics)
 - Interpretability by design (program-level features, pathway abstraction, SHAP)
 
-Across academia, industry, and applied AI instruction, I’ve built pipelines and models that turn complex biological data— metagenomics, metatranscriptomics, bulk RNA-seq, and scRNA-seq —into tools that drive mechanistic insight and translational decision-making.
+Across academia, industry, and applied AI instruction, I’ve built pipelines and models that turn complex biological data into tools that drive mechanistic insight and translational decision-making.
 
 ---
 
