@@ -89,6 +89,19 @@ Focus
 - Mechanistic interpretation of latent dimensions via pathway contributions and decoder perturbation
 
 ---
+
+## Interpretable Multi-View Modeling of Host Functional Execution in Omicron SARS-CoV-2 Infection
+
+An interpretability-first deep learning framework for learning shared host execution-level representations from paired serum proteomics and metabolomics data during Omicron SARS-CoV-2 infection.
+
+Focus
+- Execution-level host response modeling across proteome and metabolome
+- Multi-view contrastive representation learning to align molecular layers
+- Disentangling virus-specific host biology from generic inflammatory responses
+- Mechanistic interpretation of latent embeddings via pathway projection and linear probes
+
+---
+
 # **Tech Stack**
 
 - **Python**, PyTorch, TensorFlow, scikit-learn  
