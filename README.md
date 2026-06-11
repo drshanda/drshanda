@@ -115,7 +115,7 @@ Focus
 
 # **Education**
 
-- MS, Data Science, Eastern University — Expected August 2026
+- MS, Data Science, Eastern University — Expected March 2027
 - PhD, Ecology & Evolution, Rutgers University
 - MA, Anthropology, New York University
 - BS, Anthropology & Sociology, Virginia Commonwealth University
