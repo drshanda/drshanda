@@ -1,6 +1,6 @@
 #  **Hi, I'm LaShanda R. Williams, PhD**
 
-I am an AI/ML bioinformatics scientist focused on interpretable, biology-aware representation learning for multi-omics data, building models that translate high-dimensional molecular profiles into mechanistically legible and reproducible inference.
+I am an AI/ML bioinformatics scientist focused on interpretable AI for multi-omics data, building models that translate high-dimensional molecular profiles into mechanistically legible and reproducible inference.
 
 My work sits at the intersection of:
 - Machine learning rigor — leakage-aware validation, uncertainty-aware modeling, reproducible workflows
@@ -64,19 +64,41 @@ This project provides:
 
 📁 **Repository**: https://github.com/drshanda/Immune_Recovery_Ordinal_Model_Malaria_scRNAseq
 
-# **What’s Coming Next (High-Level Roadmap)**
-
-## Pathway-Level Modeling of Antibiotic-Induced Functional Perturbation in the Gut Metatranscriptome
-
-An interpretable ML framework for modeling antibiotic-specific functional responses in the gut microbiome using KEGG and GO pathway activity derived from metatranscriptomic data.
-
-Focus
-- Functional abstraction over taxonomy
-- Program-level ML inputs
-- SHAP-based attribution of disrupted microbial processes
-
-  
 ---
+
+## Pathway-Level Modeling of Antibiotic Perturbation in the Gut Metatranscriptome
+
+This project develops an interpretable machine learning framework for modeling antibiotic-specific functional states in the gut microbiome using murine metatranscriptomic data. Expressed KEGG orthologs are transformed using compositional methods and aggregated into biologically interpretable, KO-derived KEGG pathway activity scores.
+
+### Highlights
+
+- Models 20 metatranscriptomic samples across control, amoxicillin, ciprofloxacin, and doxycycline conditions using 37 curated pathway features
+- Uses repeated stratified four-fold cross-validation with 50 repeats, producing 200 held-out evaluations per model
+- The shallow neural network achieved **55.0% consensus accuracy, macro F1 = 0.516, balanced accuracy = 0.531, and macro ROC-AUC = 0.750**, outperforming elastic-net logistic regression and XGBoost in the four-class task :contentReference[oaicite:0]{index=0}
+- SHAP analysis identified distinct class-level functional patterns: amoxicillin produced the strongest and most coherent attribution profile, doxycycline showed an energy-metabolism-oriented state, controls were associated with fermentation and amino-acid biosynthesis, and ciprofloxacin showed a weaker, more heterogeneous signature :contentReference[oaicite:1]{index=1} :contentReference[oaicite:2]{index=2} :contentReference[oaicite:3]{index=3}
+- Implements a compositional workflow using prevalence filtering, closure, multiplicative zero replacement, KO-level CLR transformation, and KEGG pathway aggregation
+- Provides an end-to-end reproducible workflow using **R, Python, DVC, AWS S3, Docker Compose, and MLflow**
+
+### Why This Matters
+
+Antibiotics do more than change which organisms are present in the gut microbiome. They restructure the functional activity of the organisms that remain transcriptionally active. Because different antibiotic classes target cell-wall synthesis, DNA replication, or protein translation, they can produce distinct—but overlapping—community-level functional states.
+
+This project moves beyond taxonomic profiling by modeling coordinated pathway activity. The results suggest that antibiotic exposure is not represented by a single universal stress signature. Instead, each treatment produces a different survivor-biased ecological configuration involving energy metabolism, fermentation, translation, nucleotide metabolism, biosynthesis, and cellular maintenance.
+
+The pathway scores should therefore be interpreted as **relative functional states among transcriptionally active community members**, not as direct measurements of antibiotic mechanism, absolute pathway activation, metabolic flux, or pathway completeness.
+
+This project provides:
+
+- A framework for biologically informed, pathway-level metatranscriptomic machine learning
+- A demonstration of interpretable nonlinear modeling under severe small-sample constraints
+- SHAP-based comparison of shared and antibiotic-specific microbial functional programs
+- A fully reproducible workflow with versioned data, containerized analysis, and experiment tracking
+
+📁 Repository: https://github.com/drshanda/Metatranscriptome_Pathway_Antibiotic_ML
+
+---
+
+# **What’s Coming Next (High-Level Roadmap)**
 
 ## Interpretable Modeling of Host Translational and Cellular Stress Responses to Influenza Infection 
 
@@ -104,10 +126,10 @@ Focus
 
 # **Tech Stack**
 
-- Programming & ML: Python (pandas, numpy, scikit-learn, PyTorch)
+- Programming: Python (pandas, numpy, scikit-learn, statsmodels, keras)
 - Statistical Computing: R (Bioconductor, tidyverse, Shiny)
 - Bioinformatics: bulk RNA-seq & microarray, scRNA-seq, metagenomics, metatranscriptomics
-- Machine Learning: interpretable ML (logistic & ordinal regression, random forests, autoencoders), representation learning
+- Machine Learning & AI: interpretable ML (logistic & ordinal regression, random forests), neural networks
 - MLOps & Reproducibility: MLflow, DVC, Docker, AWS S3 & EC2
 - Explainability: SHAP
 
@@ -115,7 +137,7 @@ Focus
 
 # **Education**
 
-- MS, Data Science, Eastern University — Expected March 2027
+- MSc, Data Science, Eastern University — Expected March 2027
 - PhD, Ecology & Evolution, Rutgers University
 - MA, Anthropology, New York University
 - BS, Anthropology & Sociology, Virginia Commonwealth University
@@ -124,9 +146,10 @@ Focus
 
 # **Honors & Fellowships**
 
+* **NIH NRSA T32 Postdoctoral Fellowship**
 * **NSF Doctoral Dissertation Improvement Grant (DDIG)**
 * **Smithsonian Predoctoral Fellowship**
-* **NIH NRSA T32 Postdoctoral Fellowship**
+
 
 ---
 
